@@ -1,38 +1,106 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background-color: #070d30;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar{
+  padding: .2rem;
+  border: 1px solid white;
+  border: 2rem;
+  background-color: #070d30;
+  color: #ff3131;
+  box-shadow: 2px 2px 5px #ff3131;
+  text-shadow: 1px 1px 1px white;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+h4{
+  position: relative;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.goalInput{
+  display: flex;
+  justify-content: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.input{
+  width: 25rem;
+  height: 1.5rem;
+  margin: 1rem;
+}
+
+.btnInput{
+  display: flex;
+  justify-content: center;
+}
+
+.btn{
+  background-color: #ff3131;
+  color: #070d30;
+  border-color: #070d30;
+  border-radius: 0.5rem;
+  width: 5rem;
+  height: 1.5rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.mainBody{
+  display: flex;
+  justify-content: space-evenly;  
+}
+
+.goals{
+  background-color: #f8db9c;
+  border: 2px solid black;
+  border-radius: .5rem;
+  margin: 2rem;
+  width: 40rem;
+  height: 32rem;
+}
+
+.goalsCompleted{
+  background-color: #f8db9c;
+  border: 2px solid black;
+  border-radius: .5rem;
+  margin: 2rem;
+  width: 40rem;
+  height: 32rem;
+}
+
+.h3{
+  margin: .5rem 0rem .5rem 0rem;
+  text-align: center;
+}
+
+.goalCard{
+  background-color: rgb(255, 107, 107);
+  border: 1px solid gray;
+  border-radius: .5rem;
+  margin: .5rem;
+  padding-left: .5rem;
+  width: 25rem;
+  height: auto;
+  word-wrap: break-word;
+  cursor: pointer;
+}
+
+.goalsCompleted .goalCard{
+  background-color: rgb(138, 252, 138);
+}
+
+.goalsList{
+  list-style: none;
+}
+
+.footer{
+  text-align: center;
+  color: white;
 }
