@@ -5,17 +5,17 @@
 }
 
 body{
-  background-color: #070d30;
+  background-color: #d5d6db;
 }
 
 .navbar{
   padding: .2rem;
   border: 1px solid white;
   border: 2rem;
-  background-color: #070d30;
-  color: #ff3131;
-  box-shadow: 2px 2px 5px #ff3131;
-  text-shadow: 1px 1px 1px white;
+  background-color: #4f4c66;
+  color: white/*#ff3131;*/
+  /* box-shadow: 2px 2px 5px #ff3131; */
+  /* text-shadow: 1px 1px 1px white;  */
 }
 
 h4{
@@ -43,13 +43,15 @@ h4{
 
 .btn{
   background-color: #ff3131;
-  color: #070d30;
-  border-color: #070d30;
-  border-radius: 0.5rem;
-  width: 5rem;
-  height: 1.5rem;
+  color: white;
+  border: 1px solid #000000;
+  /* border: none; */
+  border-radius: 0.8rem;
+  width: 7rem;
+  height: 2rem;
   margin-bottom: 1rem;
   cursor: pointer;
+  font-size: 1rem;
 }
 
 .mainBody{
@@ -58,8 +60,8 @@ h4{
 }
 
 .goals{
-  background-color: #f8db9c;
-  border: 2px solid black;
+  background-color: white;
+  /* border: 2px solid black; */
   border-radius: .5rem;
   margin: 2rem;
   width: 40rem;
@@ -67,8 +69,8 @@ h4{
 }
 
 .goalsCompleted{
-  background-color: #f8db9c;
-  border: 2px solid black;
+  background-color: white;
+  /* border: 2px solid black; */
   border-radius: .5rem;
   margin: 2rem;
   width: 40rem;
@@ -81,19 +83,21 @@ h4{
 }
 
 .goalCard{
-  background-color: rgb(255, 107, 107);
+  background-color: rgb(252, 53, 53);
   border: 1px solid gray;
   border-radius: .5rem;
   margin: .5rem;
   padding-left: .5rem;
   width: 25rem;
-  height: auto;
+  height: 30px;
   word-wrap: break-word;
   cursor: pointer;
+  color: white;
+  padding-top: 5px;
 }
 
 .goalsCompleted .goalCard{
-  background-color: rgb(138, 252, 138);
+  background-color: rgb(70, 177, 70);
 }
 
 .goalsList{
@@ -102,5 +106,5 @@ h4{
 
 .footer{
   text-align: center;
-  color: white;
+  color: rgb(136, 136, 136);
 }
